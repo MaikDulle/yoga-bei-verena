@@ -13,9 +13,9 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Kursinformationen</h2>
+			<h2>Weiter Hinweis</h2>
 		</header>
-			<p>12.April - 28.Juni 2023</p><p>Jeden Mittwoch von 15-16 Uhr</p><p>Für alle zwischen 13 und 17 Jahren</p><p>10er Kurs für 110€</p><p>Fragen & Anmeldungen: yoga.bei.verena@gmail.com oder unter tbd</p>
+			<p>Auch bei Fragen und Anregungen stehe ich dir gerne unter yoga.bei.verena@gmail.com zur Verfügung</p>
 	</div>
 </section>
 
