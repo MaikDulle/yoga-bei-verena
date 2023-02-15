@@ -13,9 +13,9 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h2>Weiter Hinweis</h2>
+			<h2>Zu mir</h2>
 		</header>
-			<p>Auch bei Fragen und Anregungen stehe ich dir gerne unter yoga.bei.verena@gmail.com zur Verfügung</p>
+			<p> Ich bin ausgebildete Physiothrepeutin und zusätzlich zertifizierte Yoga-Lehrerin und arbeite bereits seit X Jahren mit tbd.<p>Auch bei Fragen und Anregungen stehe ich dir gerne unter yoga.bei.verena@gmail.com zur Verfügung.</p>
 	</div>
 </section>
 
