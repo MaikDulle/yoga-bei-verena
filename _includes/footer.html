@@ -39,8 +39,11 @@
 			<section>
 				<div class="contact-method">
 					<span class="icon alt fa-home"></span>
-					<h3>Adresse</h3>
+					<h3>Kontakt</h3>
 					<span>
+					{% if site.author %}
+					    {{ site.author }}<br />
+					{% endif %}
 					{% if site.street_address %}
 					    {{ site.street_address }}<br />
 					{% endif %}
