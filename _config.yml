@@ -1,7 +1,7 @@
 # site settings
 title: Yoga
 subtitle: bei Verena
-email: yoga.bei.verena@gmail.com
+email: <p>Verena Sass</p><p>yoga.bei.verena@gmail.com</p>
 description: Mit Yoga zu neuem Selbstbewusstein.
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
