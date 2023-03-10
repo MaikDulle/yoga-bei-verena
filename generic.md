@@ -17,8 +17,8 @@ nav-menu: true
             <p>Ich freue mich sehr, ab sofort meine Kenntnisse aus den Funktionstrainingskursen auch im Bereich des Yogas nutzen zu können.</p> <p>Auch bei Fragen und Anregungen stehe ich dir gerne unter yoga.bei.verena@gmail.com zur Verfügung.</p>
 
 <p align="middle">
-  <img src="assets/images/Verena_2.jpg" width="100" />
-  <img src="assets/images/Verena_1.jpg" width="100" /> 
+  <img src="assets/images/Verena_2.jpg" width="320" />
+  <img src="assets/images/Verena_1.jpg" width="320" /> 
 </p>
 
 
