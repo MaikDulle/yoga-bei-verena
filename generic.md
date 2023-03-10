@@ -12,5 +12,13 @@ nav-menu: true
 		<header class="major">
 			<h2>Zu mir</h2>
 		</header>
-			<p> Ich bin ausgebildete Physiothrepeutin und zusätzlich zertifizierte Yoga-Lehrerin und arbeite bereits seit X Jahren mit tbd.<p>Auch bei Fragen und Anregungen stehe ich dir gerne unter yoga.bei.verena@gmail.com zur Verfügung.</p>
+			<p> Verena Sass</p>
+            <p>Ich bin 1973 in Hamburg geboren, lebe seit 2000 mit meinem Mann in Nienhagen und bin Mutter von drei wundervollen Kindern. Neben meinem Hauptberuf als Physiotherapeutin und Funktionstrainerin habe ich die Leidenschaft für Yoga entdeckt und die Ausbildung als Yogalehrerin fast abgeschlossen.</p>
+            <p>Ich freue mich sehr, ab sofort meine Kenntnisse aus den Funktionstrainingskursen auch im Bereich des Yogas nutzen zu können.</p> <p>Auch bei Fragen und Anregungen stehe ich dir gerne unter yoga.bei.verena@gmail.com zur Verfügung.</p>
+
+<p align="middle">
+  <img src="assets/images/Verena_2.jpg" width="100" />
+  <img src="assets/images/Verena_1.jpg" width="100" /> 
+</p>
+
 
