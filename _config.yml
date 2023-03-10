@@ -6,12 +6,12 @@ description: Mit Yoga zu neuem Selbstbewusstein.
 baseurl: # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Verena Sass
-street_address: Dorfstraße 44
+street_address:
 city: Nienhagen
 state:
 zip_code: 29336
 country:
-phone:
+phone: 05144/560670
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
