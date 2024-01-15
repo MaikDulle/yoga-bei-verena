@@ -46,24 +46,38 @@ nav-menu: true
         .swiper-slide img {
             width: 100%;
             height: auto; /* Make the height responsive while maintaining aspect ratio */
-            max-height: 400px; /* Set a maximum height to prevent images from becoming too large */
+            max-height: 500px; /* Set a maximum height to prevent images from becoming too large */
             object-fit: cover;
         }
 
 		.swiper-button-next,
-        .swiper-button-prev {
-            font-size: 18px;
-            color: white;
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 5px;
-            width: 40px;
-            height: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 10px;
-            cursor: pointer;
-        }
+    .swiper-button-prev {
+        font-size: 18px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+        cursor: pointer;
+        z-index: 10; /* Add z-index to ensure visibility */
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        content: ''; /* Add content to the pseudo-elements */
+    }
+
+    .swiper-button-next::after {
+        content: '\2192'; /* Unicode arrow right character */
+    }
+
+    .swiper-button-prev::after {
+        content: '\2190'; /* Unicode arrow left character */
+    }
  </style>
 
  <body>
@@ -113,9 +127,7 @@ nav-menu: true
 
 
 <!-- Add Swiper JS -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <!-- Initialize Swiper -->
-    <script>
+<script>
         var swiper = new Swiper('.swiper-container', {
             slidesPerView: 1,
             spaceBetween: 10,
@@ -123,10 +135,14 @@ nav-menu: true
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            autoplay: {
+                delay: 3000, // Set the delay between slides in milliseconds (3 seconds in this example)
+                disableOnInteraction: false, // Continue autoplay even when user interacts with the swiper
+            },
         });
     </script>
 
-
+<p></p>
 <center>
 	<p>Fragen & Anmeldungen: yoga.bei.verena@gmail.com oder unter 05144/560670</p>
 </center>
