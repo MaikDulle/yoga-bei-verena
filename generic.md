@@ -27,14 +27,14 @@ nav-menu: true
 
     .image-container {
         width: 45%;
-        margin: auto;
+        margin: 10px;
         overflow: hidden;
         display: inline-block; /* Display images side by side */
         margin-bottom: 20px;
     }
 
     .image-container img {
-        width: 100%;
+        width: 50%;
         height: auto;
         object-fit: cover;
     }
