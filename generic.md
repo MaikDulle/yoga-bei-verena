@@ -30,8 +30,8 @@ nav-menu: true
         margin: 10px;
         overflow: hidden;
         display: inline-block; /* Display images side by side */
-        margin-bottom: 20px;
-        height: 300px;
+        margin-bottom: 5px;
+        height: 400px;
     }
 
     .image-container img {
@@ -44,7 +44,7 @@ nav-menu: true
 <body>
 	<div class="image-container">
     	<!-- Image 1 (replace 'image1.jpg' with the path to your image) -->
-    	<img src="assets/images/ybv1-ezgif.com-jpg-to-webp-converter.webp" alt="Image 1">
+    	<img src="assets/images/ybv6-ezgif.com-jpg-to-webp-converter.webp" alt="ybv6">
 	</div>
 	<div class="image-container">
     	<!-- Image 2 (replace 'image2.jpg' with the path to your image) -->
