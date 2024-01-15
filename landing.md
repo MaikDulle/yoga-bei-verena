@@ -20,14 +20,14 @@ nav-menu: true
             flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
             justify-content: space-between; /* Space the divs evenly */
             max-width: 1500px; /* Set a maximum width for the container */
-            margin: 10px auto; /* Center the container on the page with some margin */
+            margin: 5px auto; /* Center the container on the page with some margin */
         }
 
         /* Style for each div */
         .box {
             box-sizing: border-box;
-            width: 44%; /* Set the width of each div, leaving some space for margin */
-            padding: 10px;
+            width: 48%; /* Set the width of each div, leaving some space for margin */
+            padding: 5px;
             margin: 2px; /* Add a small margin between divs */
             border: 1px solid #ccc; /* Add a border for better visibility */
         }
@@ -64,8 +64,10 @@ nav-menu: true
 			Neugierig geworden? Dann komm vorbei! </p>
         </div>
     </div>
-
-<p>Fragen & Anmeldungen: yoga.bei.verena@gmail.com oder unter 05144/560670</p>
+<br>
+<center>
+	<p>Fragen & Anmeldungen: yoga.bei.verena@gmail.com oder unter 05144/560670</p>
+</center>
 </body>
 
 
