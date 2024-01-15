@@ -6,6 +6,11 @@ image: assets/images/Yoga_für_Teeanger_new2.png
 nav-menu: true
 ---
 
+<!-- Main -->
+<div id="main">
+
+<!-- Add Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 
 
 <style>
@@ -30,6 +35,17 @@ nav-menu: true
             padding: 5px;
             margin: 2px; /* Add a small margin between divs */
             border: 1px solid #ccc; /* Add a border for better visibility */
+        }
+
+		.swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
  </style>
 
@@ -64,6 +80,41 @@ nav-menu: true
 			Neugierig geworden? Dann komm vorbei! </p>
         </div>
     </div>
+
+<!-- Swiper -->
+<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!-- Add your images here -->
+            <div class="swiper-slide"><img src="assets/images/ybv2.jpg" alt="ybv2"></div>
+            <div class="swiper-slide"><img src="assets/images/ybv3.jpg" alt="ybv3"></div>
+            <!-- Add more slides as needed -->
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Add Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
+
+
 <br>
 <center>
 	<p>Fragen & Anmeldungen: yoga.bei.verena@gmail.com oder unter 05144/560670</p>
