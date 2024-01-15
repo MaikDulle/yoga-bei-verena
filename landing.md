@@ -50,7 +50,7 @@ nav-menu: true
             object-fit: cover;
         }
 
-		.swiper-button-next,
+	.swiper-button-next,
     .swiper-button-prev {
         font-size: 18px;
         color: white;
