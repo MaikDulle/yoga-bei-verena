@@ -2,7 +2,7 @@
 layout: post
 title: Über mich
 description: Hier findest du Informationen über mich!
-image: assets/images/ybv4.jpg
+image: assets/images/ybv4-ezgif.com-jpg-to-webp-converter.webp
 nav-menu: true
 ---
 
