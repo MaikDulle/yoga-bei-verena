@@ -26,9 +26,11 @@ nav-menu: true
     }
 
     .image-container {
-        width: 50%;
+        width: 45%;
         margin: auto;
         overflow: hidden;
+        display: inline-block; /* Display images side by side */
+        margin-bottom: 20px;
     }
 
     .image-container img {
