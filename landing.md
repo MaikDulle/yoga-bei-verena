@@ -40,12 +40,29 @@ nav-menu: true
 		.swiper-container {
             width: 50%; /* Set maximum width to 75% */
             margin: auto; /* Center the container */
+			height: 400px;
         }
 
         .swiper-slide img {
             width: 100%;
-            height: 100%;
+            height: auto; /* Make the height responsive while maintaining aspect ratio */
+            max-height: 400px; /* Set a maximum height to prevent images from becoming too large */
             object-fit: cover;
+        }
+
+		.swiper-button-next,
+        .swiper-button-prev {
+            font-size: 18px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            cursor: pointer;
         }
  </style>
 
