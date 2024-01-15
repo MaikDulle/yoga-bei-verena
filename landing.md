@@ -38,7 +38,7 @@ nav-menu: true
         }
 
 		.swiper-container {
-            width: 75%; /* Set maximum width to 75% */
+            width: 50%; /* Set maximum width to 75% */
             margin: auto; /* Center the container */
         }
 
@@ -89,14 +89,13 @@ nav-menu: true
             <div class="swiper-slide"><img src="assets/images/ybv3.jpg" alt="ybv3"></div>
             <!-- Add more slides as needed -->
         </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
         <!-- Add Navigation -->
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
 
-    <!-- Add Swiper JS -->
+
+<!-- Add Swiper JS -->
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
@@ -107,15 +106,10 @@ nav-menu: true
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
         });
     </script>
 
 
-<br>
 <center>
 	<p>Fragen & Anmeldungen: yoga.bei.verena@gmail.com oder unter 05144/560670</p>
 </center>
