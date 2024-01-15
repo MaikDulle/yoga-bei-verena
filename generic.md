@@ -16,10 +16,10 @@ nav-menu: true
             <p>Ich bin 1973 in Hamburg geboren, lebe seit 2000 mit meinem Mann in Nienhagen und bin Mutter von drei wundervollen Kindern. Neben meinem Hauptberuf als Physiotherapeutin und Funktionstrainerin habe ich die Leidenschaft für Yoga entdeckt und habe die 3-jährige Ausbildung als Yogalehrerin erfolgreich abgeschlossen.</p> <p>Melde dich gerne bei Fragen und Anregungen unter yoga.bei.verena@gmail.com oder 05144/560670 bei mir. </p>
 
 <style>
-  .image {
-    width: 300px;
-    height: 200px;
-  }
+	.img {
+    	width: 300px;
+    	height: 200px;
+  	}
 </style>
 
 
