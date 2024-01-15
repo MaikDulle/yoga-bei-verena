@@ -110,8 +110,8 @@ nav-menu: true
 <div class="swiper-container">
     <div class="swiper-wrapper">
         <!-- Add your images here -->
-        <div class="swiper-slide"><img src="image1.jpg" alt="Image 1"></div>
-        <div class="swiper-slide"><img src="image2.jpg" alt="Image 2"></div>
+        <div class="swiper-slide"><img src="assets/images/ybv2-ezgif.com-jpg-to-webp-converter.webp" alt="Image 1"></div>
+        <div class="swiper-slide"><img src="assets/images/ybv3-ezgif.com-jpg-to-webp-converter.webp" alt="Image 2"></div>
     	<!-- Add more slides as needed -->
     </div>
     <!-- Add Pagination -->
