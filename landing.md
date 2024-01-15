@@ -15,69 +15,62 @@ nav-menu: true
 
 <style>
 	body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
 	.container {
-            display: flex;
-            flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
-            justify-content: space-between; /* Space the divs evenly */
-            max-width: 1500px; /* Set a maximum width for the container */
-            margin: 5px auto; /* Center the container on the page with some margin */
-        }
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+        justify-content: space-between; /* Space the divs evenly */
+        max-width: 1500px; /* Set a maximum width for the container */
+        margin: 5px auto; /* Center the container on the page with some margin */
+    }
 
         /* Style for each div */
-        .box {
-            box-sizing: border-box;
-            width: 48%; /* Set the width of each div, leaving some space for margin */
-            padding: 5px;
-            margin: 2px; /* Add a small margin between divs */
-            border: 1px solid #ccc; /* Add a border for better visibility */
-        }
+    .box {
+        box-sizing: border-box;
+        width: 48%; /* Set the width of each div, leaving some space for margin */
+        padding: 5px;
+        margin: 2px; /* Add a small margin between divs */
+        border: 1px solid #ccc; /* Add a border for better visibility */
+    }
 
-		.swiper-container {
-            width: 50%; /* Set maximum width to 75% */
-            margin: auto; /* Center the container */
-			height: 400px;
-        }
+	.swiper-container {
+        width: 50%; /* Set maximum width to 75% */
+        margin: auto; /* Center the container */
+		height: 400px;
+    }
 
-        .swiper-slide img {
-            width: 100%;
-            height: auto; /* Make the height responsive while maintaining aspect ratio */
-            max-height: 400px; /* Set a maximum height to prevent images from becoming too large */
-            object-fit: cover;
-        }
+    .swiper-slide img {
+        width: 100%;
+        height: auto; /* Make the height responsive while maintaining aspect ratio */
+        max-height: 400px; /* Set a maximum height to prevent images from becoming too large */
+        object-fit: cover;
+    }
 
-	.swiper-button-next,
-    .swiper-button-prev {
-        font-size: 18px;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 5px;
-        width: 40px;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 10px;
+	.swiper-pagination {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .swiper-pagination-bullet {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        opacity: 0.7;
+        margin: 0 5px;
+        border-radius: 50%;
         cursor: pointer;
-        z-index: 10; /* Add z-index to ensure visibility */
     }
 
-    .swiper-button-next::after,
-    .swiper-button-prev::after {
-        content: ''; /* Add content to the pseudo-elements */
+    .swiper-pagination-bullet-active {
+        opacity: 1;
     }
 
-    .swiper-button-next::after {
-        content: '\2192'; /* Unicode arrow right character */
-    }
-
-    .swiper-button-prev::after {
-        content: '\2190'; /* Unicode arrow left character */
-    }
  </style>
 
  <body>
@@ -120,10 +113,9 @@ nav-menu: true
             <div class="swiper-slide"><img src="assets/images/ybv3.jpg" alt="ybv3"></div>
             <!-- Add more slides as needed -->
         </div>
-        <!-- Add Navigation -->
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-    </div>
+ <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+</div>
 
 
 <!-- Add Swiper JS -->
@@ -140,9 +132,9 @@ nav-menu: true
                 disableOnInteraction: false, // Continue autoplay even when user interacts with the swiper
             },
         });
-    </script>
+</script>
 
-<p></p>
+<br>
 <center>
 	<p>Fragen & Anmeldungen: yoga.bei.verena@gmail.com oder unter 05144/560670</p>
 </center>
