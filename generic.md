@@ -24,8 +24,8 @@ nav-menu: true
 
 
 <p align="middle">
-  <img src="assets/images/ybv1.jpg" object-fit="cover" />
-  <img src="assets/images/Verena_1.jpg" object-fit="cover" /> 
+  <img src="assets/images/ybv1.jpg" />
+  <img src="assets/images/Verena_1.jpg"/> 
 </p>
 
 
