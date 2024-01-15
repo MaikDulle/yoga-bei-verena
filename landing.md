@@ -38,8 +38,8 @@ nav-menu: true
         }
 
 		.swiper-container {
-            width: 100%;
-            height: 100%;
+            width: 75%; /* Set maximum width to 75% */
+            margin: auto; /* Center the container */
         }
 
         .swiper-slide img {
