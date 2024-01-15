@@ -31,6 +31,7 @@ nav-menu: true
         overflow: hidden;
         display: inline-block; /* Display images side by side */
         margin-bottom: 20px;
+        height: 300px;
     }
 
     .image-container img {
