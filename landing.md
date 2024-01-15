@@ -41,6 +41,7 @@ nav-menu: true
         width: 50%; /* Set maximum width to 75% */
         margin: auto; /* Center the container */
 		height: 400px;
+		overflow: hidden;
     }
 
     .swiper-slide img {
@@ -51,24 +52,24 @@ nav-menu: true
     }
 
 	.swiper-pagination {
-        position: absolute;
-        bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
     }
 
     .swiper-pagination-bullet {
-        width: 10px;
-        height: 10px;
-        background-color: #fff;
-        opacity: 0.7;
-        margin: 0 5px;
-        border-radius: 50%;
-        cursor: pointer;
+            width: 10px;
+            height: 10px;
+            background-color: #fff;
+            opacity: 0.7;
+            margin: 0 5px;
+            border-radius: 50%;
+            cursor: pointer;
     }
 
     .swiper-pagination-bullet-active {
-        opacity: 1;
+            opacity: 1;
     }
 
  </style>
@@ -107,34 +108,34 @@ nav-menu: true
 
 <!-- Swiper -->
 <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <!-- Add your images here -->
-            <div class="swiper-slide"><img src="assets/images/ybv2.jpg" alt="ybv2"></div>
-            <div class="swiper-slide"><img src="assets/images/ybv3.jpg" alt="ybv3"></div>
-            <!-- Add more slides as needed -->
-        </div>
- <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+        <!-- Add your images here -->
+        <div class="swiper-slide"><img src="image1.jpg" alt="Image 1"></div>
+        <div class="swiper-slide"><img src="image2.jpg" alt="Image 2"></div>
+    	<!-- Add more slides as needed -->
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
 </div>
 
-
 <!-- Add Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- Initialize Swiper -->
 <script>
-        var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 1,
-            spaceBetween: 10,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            autoplay: {
-                delay: 3000, // Set the delay between slides in milliseconds (3 seconds in this example)
-                disableOnInteraction: false, // Continue autoplay even when user interacts with the swiper
-            },
-        });
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        autoplay: {
+            delay: 3000, // Set the delay between slides in milliseconds (3 seconds in this example)
+            disableOnInteraction: false, // Continue autoplay even when the user interacts with the swiper
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
 </script>
 
-<br>
 <center>
 	<p>Fragen & Anmeldungen: yoga.bei.verena@gmail.com oder unter 05144/560670</p>
 </center>
