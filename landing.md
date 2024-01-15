@@ -47,6 +47,8 @@ nav-menu: true
     
 </div>
 
+<body>
+<style>
 .wrapper {
     width:600px;
     margin: 0 auto;
@@ -60,7 +62,8 @@ nav-menu: true
 {
     float:right;
 }
-
+</style>
+</body>
 
 
 
