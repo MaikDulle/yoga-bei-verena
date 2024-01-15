@@ -14,14 +14,14 @@ nav-menu: true
             display: flex;
             flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
             justify-content: space-between; /* Space the divs evenly */
-            max-width: 800px; /* Set a maximum width for the container */
+            max-width: 1500px; /* Set a maximum width for the container */
             margin: 20px auto; /* Center the container on the page with some margin */
         }
 
         /* Style for each div */
         .box {
             box-sizing: border-box;
-            width: 65%; /* Set the width of each div, leaving some space for margin */
+            width: 48%; /* Set the width of each div, leaving some space for margin */
             padding: 20px;
             margin: 5px; /* Add a small margin between divs */
             border: 1px solid #ccc; /* Add a border for better visibility */
