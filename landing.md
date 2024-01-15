@@ -46,7 +46,7 @@ nav-menu: true
         .swiper-slide img {
             width: 100%;
             height: auto; /* Make the height responsive while maintaining aspect ratio */
-            max-height: 500px; /* Set a maximum height to prevent images from becoming too large */
+            max-height: 400px; /* Set a maximum height to prevent images from becoming too large */
             object-fit: cover;
         }
 
