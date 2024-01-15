@@ -40,14 +40,14 @@ nav-menu: true
 	.swiper-container {
         width: 50%; /* Set maximum width to 75% */
         margin: auto; /* Center the container */
-		height: 400px;
+		height: 500px;
 		overflow: hidden;
     }
 
     .swiper-slide img {
         width: 100%;
         height: auto; /* Make the height responsive while maintaining aspect ratio */
-        max-height: 400px; /* Set a maximum height to prevent images from becoming too large */
+        max-height: 500px; /* Set a maximum height to prevent images from becoming too large */
         object-fit: cover;
     }
 
