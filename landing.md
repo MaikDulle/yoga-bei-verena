@@ -38,11 +38,11 @@ nav-menu: true
     }
 
 	.swiper-container {
-        width: 50%; /* Set maximum width to 75% */
+        width: 100%; /* Set maximum width to 75% */
         margin: auto; /* Center the container */
 		height: 500px;
 		overflow: hidden;
-        margin-bottom: 5px;
+        margin-bottom: 0;
     }
 
     .swiper-slide img {
