@@ -65,9 +65,7 @@ nav-menu: true
     <div class="container">
         <!-- First div -->
         <div class="box">
-		<header class="major">
             <h2>Yoga für Erwachsene</h2>
-		</header>
 			<p>Informationen zu Räumlichkeiten und Zeit folgen in Kürze</p><p>Kurs: 10 Einheiten à 75 min. für Euro 150,-</p>
             <p>Hatha Yoga ist eine Jahrtausende alte Technik, die Körper, Geist und Seele harmonisiert.
 			Klassische Yogastellungen (Asanas), sanfte Atemübungen, Entspannungs- und Meditationstechniken  und Wahrnehmungsschulung fördern gleichzeitig Stärke und Flexibilität, schenken Ausgeglichenheit, führen zu mehr Vitalität und schulen die Konzentrationsfähigkeit.
@@ -77,9 +75,7 @@ nav-menu: true
         </div>
         <!-- Second div -->
         <div class="box">
-		<header class="major">
             <h2>Yoga für Teenager</h2>
-		</header>
 			<p>Für alle zwischen 13 und 17 Jahren</p><p>Kurs: 10 Einheiten à 60 min. für Euro 110,-</p>
             <p>Yoga tut dem Körper und der Seele gut - in jedem Alter!
 			Aber gerade für Teenager kann Yoga eine große Unterstützung sein.
@@ -101,8 +97,6 @@ nav-menu: true
         <div class="swiper-slide"><img src="assets/images/ybv3-ezgif.com-jpg-to-webp-converter.webp" alt="ybv3"></div>
     	<!-- Add more slides as needed -->
     </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
 </div>
 
 <!-- Add Swiper JS -->
@@ -117,7 +111,7 @@ nav-menu: true
             disableOnInteraction: false, // Continue autoplay even when the user interacts with the swiper
         },
         pagination: {
-            el: '.swiper-pagination',
+            el: '',
         },
     });
 </script>
