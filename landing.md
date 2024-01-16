@@ -58,6 +58,13 @@ nav-menu: true
             left: 50%;
             transform: translateX(-50%);
     }
+/* Media query for smaller screens */
+    @media (max-width: 400px) {
+        .swiper-container {
+            width: 90%; /* Adjust width for smaller screens */
+            margin: auto;
+        }
+    }
 
  </style>
 
