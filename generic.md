@@ -27,7 +27,7 @@ nav-menu: true
         margin: 2px;
         overflow: hidden;
         display: inline-block; /* Display images side by side */
-        margin-bottom: 5px;
+        margin-bottom: 2px;
         height: 400px;
     }
 

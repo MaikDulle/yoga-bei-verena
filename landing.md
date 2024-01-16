@@ -58,20 +58,6 @@ nav-menu: true
             transform: translateX(-50%);
     }
 
-    .swiper-pagination-bullet {
-            width: 10px;
-            height: 10px;
-            background-color: #fff;
-            opacity: 0.7;
-            margin: 0 5px;
-            border-radius: 50%;
-            cursor: pointer;
-    }
-
-    .swiper-pagination-bullet-active {
-            opacity: 1;
-    }
-
  </style>
 
  <body>
