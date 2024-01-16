@@ -92,6 +92,7 @@ nav-menu: true
             max-height: 15vh; /* Adjust maximum height for smaller screens */
             max-width: 15%; /* Adjust maximum width for smaller screens */
             top: 60%; /* Adjust top position for smaller screens */
+            left: 35%; /* Center horizontally */
         }
     }
 
