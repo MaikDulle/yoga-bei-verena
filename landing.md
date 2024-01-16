@@ -66,6 +66,13 @@ nav-menu: true
         }
     }
 
+/* Optional: Remove margin for small screens */
+    @media (max-width: 400px) {
+        body {
+            margin-bottom: 0;
+        }
+    }
+
  </style>
 
  <body>
