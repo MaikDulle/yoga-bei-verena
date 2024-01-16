@@ -80,17 +80,17 @@ nav-menu: true
         top: 70%; /* Center vertically */
         left: 45%; /* Center horizontally */
         transform: translate(-50%, -50%); /* Center the image precisely */
-        max-width: 50%;
+        max-width: 40%;
         height: auto; /* Maintain aspect ratio */
-        max-height: 60vh; /* Set a maximum height relative to the viewport */
+        max-height: 30vh; /* Set a maximum height relative to the viewport */
         width: auto; /* Allow the width to adjust based on the height */
     }
 
  /* Media query for smaller screens */
     @media (max-width: 400px) {
         .independent-image {
-            max-height: 60vh; /* Adjust maximum height for smaller screens */
-            max-width: 50%; /* Adjust maximum width for smaller screens */
+            max-height: 30vh; /* Adjust maximum height for smaller screens */
+            max-width: 40%; /* Adjust maximum width for smaller screens */
         }
     }
 
