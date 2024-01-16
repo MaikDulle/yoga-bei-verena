@@ -24,7 +24,7 @@ nav-menu: true
 
     .image-container {
         width: 45%;
-        margin: 2px;
+        margin: auto;
         overflow: hidden;
         display: inline-block; /* Display images side by side */
         margin-bottom: 2px;
