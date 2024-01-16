@@ -78,9 +78,9 @@ nav-menu: true
     .independent-image {
         position: absolute; /* Set position to absolute */
         top: 70%; /* Center vertically */
-        left: 40%; /* Center horizontally */
+        left: 45%; /* Center horizontally */
         transform: translate(-50%, -50%); /* Center the image precisely */
-        max-width: 50%; /* Make the image responsive */
+        max-width: 20%; /* Make the image responsive */
         height: auto; /* Maintain aspect ratio */
     }
 
