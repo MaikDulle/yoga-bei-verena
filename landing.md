@@ -38,7 +38,7 @@ nav-menu: true
     }
 
 	.swiper-container {
-        width: 100%; /* Set maximum width to 75% */
+        width: 50%; /* Set maximum width to 75% */
         margin: auto; /* Center the container */
 		height: 500px;
 		overflow: hidden;
@@ -61,8 +61,14 @@ nav-menu: true
 /* Media query for smaller screens */
     @media (max-width: 600px) {
         .swiper-container {
-            width: 70%; /* Adjust width for smaller screens */
+            width: 100%; /* Adjust width for smaller screens */
             margin-bottom: 0 !important;
+        }
+    }
+
+    @media (max-width: 600px) {
+        body {
+            margin-bottom: 0;
         }
     }
 
