@@ -62,15 +62,14 @@ nav-menu: true
     @media (max-width: 600px) {
         .swiper-container {
             width: 70%; /* Adjust width for smaller screens */
-            margin: auto;
-            margin-bottom: 5px;
+            margin-bottom: 0 !important;
         }
     }
 
 /* Optional: Remove margin for small screens */
     @media (max-width: 400px) {
         body {
-            margin-bottom: 0;
+            margin-bottom:0;
         }
     }
 
@@ -92,7 +91,7 @@ nav-menu: true
             max-height: 15vh; /* Adjust maximum height for smaller screens */
             max-width: 15%; /* Adjust maximum width for smaller screens */
             top: 60%; /* Adjust top position for smaller screens */
-            left: 45%; /* Center horizontally */
+            left: 40%; /* Center horizontally */
         }
     }
 
