@@ -84,6 +84,13 @@ nav-menu: true
         height: auto; /* Maintain aspect ratio */
     }
 
+ /* Media query for smaller screens */
+    @media (max-width: 600px) {
+        .independent-image {
+            max-height: 60vh; /* Adjust maximum height for smaller screens */
+        }
+    }
+    
  </style>
 
  <body>
