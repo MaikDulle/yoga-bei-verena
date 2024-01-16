@@ -42,6 +42,7 @@ nav-menu: true
         margin: auto; /* Center the container */
 		height: 500px;
 		overflow: hidden;
+        margin-bottom: 5px;
     }
 
     .swiper-slide img {
@@ -117,7 +118,6 @@ nav-menu: true
         },
         pagination: {
             el: '.swiper-pagination',
-            clickable: true,
         },
     });
 </script>
