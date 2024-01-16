@@ -63,6 +63,7 @@ nav-menu: true
         .swiper-container {
             width: 70%; /* Adjust width for smaller screens */
             margin: auto;
+            margin-bottom: 5px;
         }
     }
 
