@@ -74,6 +74,16 @@ nav-menu: true
         }
     }
 
+ /* Styling for the independent image */
+    .independent-image {
+        position: absolute; /* Set position to absolute */
+        top: 60%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Center the image precisely */
+        max-width: 75%; /* Make the image responsive */
+        height: auto; /* Maintain aspect ratio */
+    }
+
  </style>
 
  <body>
@@ -103,6 +113,9 @@ nav-menu: true
 			Neugierig geworden? Dann komm vorbei! </p>
         </div>
     </div>
+
+<!-- Independent Image -->
+<img class="independent-image" src="assets/images/ybv7.png" alt="Independent Image">
 
 <!-- Swiper -->
 <div class="swiper-container">
