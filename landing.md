@@ -109,8 +109,7 @@ nav-menu: true
         <div class="box">
             <h2>Yoga für Erwachsene</h2>
 			<p>Start: 06. März 2024 - mittwochs von 18:30 - 19:45 Uhr</p>
-            <p>In den Räumlichkeiten der Kindertagesstätte Gartenkinder</p>
-            <p>Auf der Beikhorst 22, 29336 Nienhagen</p> 
+            <p>In den Räumlichkeiten der Kindertagesstätte Gartenkinder - Auf der Beikhorst 22, 29336 Nienhagen</p>
             <p>Kurs: 10 Einheiten à 75 min. für Euro 150,-</p>
             <p>Hatha Yoga ist eine Jahrtausende alte Technik, die Körper, Geist und Seele harmonisiert.
 			Klassische Yogastellungen (Asanas), sanfte Atemübungen, Entspannungs- und Meditationstechniken  und Wahrnehmungsschulung fördern gleichzeitig Stärke und Flexibilität, schenken Ausgeglichenheit, führen zu mehr Vitalität und schulen die Konzentrationsfähigkeit.
@@ -135,7 +134,7 @@ nav-menu: true
     </div>
 
 <!-- Independent Image -->
-<img class="independent-image" src="assets/images/ybv7.png" alt="Independent Image">
+<img class="independent-image" src="assets/images/imageedit_10_7830233085.png" alt="Independent Image">
 
 <!-- Swiper -->
 <div class="swiper-container">
