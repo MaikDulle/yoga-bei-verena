@@ -108,7 +108,10 @@ nav-menu: true
         <!-- First div -->
         <div class="box">
             <h2>Yoga für Erwachsene</h2>
-			<p>Informationen zu Räumlichkeiten und Zeit folgen in Kürze</p><p>Kurs: 10 Einheiten à 75 min. für Euro 150,-</p>
+			<p>Start: 06. März 2024; mittwochs von 18:30 - 19:45 Uhr</p>
+            <p>in den Räumlichkeiten der Kindertagesstätte Gartenkinder</p>
+            <p>Auf der Beikhorst 22, 29336 Nienhagen</p> 
+            <p>Kurs: 10 Einheiten à 75 min. für Euro 150,-</p>
             <p>Hatha Yoga ist eine Jahrtausende alte Technik, die Körper, Geist und Seele harmonisiert.
 			Klassische Yogastellungen (Asanas), sanfte Atemübungen, Entspannungs- und Meditationstechniken  und Wahrnehmungsschulung fördern gleichzeitig Stärke und Flexibilität, schenken Ausgeglichenheit, führen zu mehr Vitalität und schulen die Konzentrationsfähigkeit.
 			Die Yogastunden sind für Anfänger und Fortgeschrittene gleichermaßen geeignet. Yoga zu praktizieren bedeutet, sich Zeit für sich zu nehmen. Hier gibt es keinen Leistungsvergleich, jeder Mensch ist einzigartig. Yoga lehrt uns, eins zu sein mit sich, seine Grenzen wahrzunehmen und auszudehnen, auch in der Anspannung zu entspannen. Ganz nach dem Motto: „Alles kann, nichts muss“. Dadurch wird Stress abgebaut, innere Ruhe empfunden, ein klarer Geist entwickelt und frische Energie aufgebaut.
