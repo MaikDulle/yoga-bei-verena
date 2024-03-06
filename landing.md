@@ -109,7 +109,7 @@ nav-menu: true
         <div class="box">
             <h2>Yoga für Erwachsene</h2>
 			<p>Kurs 1 - Start: 06. März 2024 - mittwochs von 18:30 - 19:45 Uhr</p>
-            <p>Kurs 2 - Start: 08. April 2024 - mittwochs von 18:30 - 19:45 Uhr</p>
+            <p>Kurs 2 - Start: 08. April 2024 - montags von 18:30 - 19:45 Uhr</p>
             <p>In den Räumlichkeiten der Kindertagesstätte Gartenkinder - Auf der Beikhorst 22, 29336 Nienhagen</p>
             <p>Kurs: 10 Einheiten à 75 min. für Euro 150,-</p>
             <p>Hatha Yoga ist eine Jahrtausende alte Technik, die Körper, Geist und Seele harmonisiert.
