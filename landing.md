@@ -108,7 +108,7 @@ nav-menu: true
         <!-- First div -->
         <div class="box">
             <h2>Yoga für Erwachsene</h2>
-			<p>Kursstart: Genaue Starttermine können bei mir angefragt werden</p>
+			<p>Kursstart: Genaue Starttermine können bei mir angefragt werden.</p>
             <p>In den Räumlichkeiten der Kindertagesstätte Gartenkinder - Auf der Beikhorst 22, 29336 Nienhagen</p>
             <p>Kurs: 10 Einheiten à 75 min. für Euro 150,-</p>
             <p>Hatha Yoga ist eine Jahrtausende alte Technik, die Körper, Geist und Seele harmonisiert.
@@ -120,7 +120,7 @@ nav-menu: true
         <!-- Second div -->
         <div class="box">
             <h2>Yoga für Teenager</h2>
-			<p>Für alle zwischen 13 und 17 Jahren</p><p>Kurs: 10 Einheiten à 60 min. für Euro 110,-</p>
+			<p>Für alle zwischen 13 und 17 Jahren.</p><p>Kurs: 10 Einheiten à 60 min. für Euro 110,-</p>
             <p>Yoga tut dem Körper und der Seele gut - in jedem Alter!
 			Aber gerade für Teenager kann Yoga eine große Unterstützung sein.
 			Denn Yoga ist kein Wettbewerb. Hier geht es nicht darum, sich mit anderen zu vergleichen. Im Yoga geht es ausschließlich um dich selbst.
